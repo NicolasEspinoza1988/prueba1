@@ -1,0 +1,20 @@
+[17-Apr-2018 15:17:38 UTC] PHP Warning:  require_once(../myDBC.php): failed to open stream: No such file or directory in /home/csg39721/public_html/php/pdf/vistas/pdf_blanco.php on line 2
+[17-Apr-2018 15:17:38 UTC] PHP Fatal error:  require_once(): Failed opening required '../myDBC.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/csg39721/public_html/php/pdf/vistas/pdf_blanco.php on line 2
+[17-Apr-2018 15:18:56 UTC] PHP Notice:  Undefined variable: datos in /home/csg39721/public_html/php/pdf/vistas/pdf_blanco.php on line 105
+[17-Apr-2018 15:18:56 UTC] PHP Notice:  Undefined variable: datos in /home/csg39721/public_html/php/pdf/vistas/pdf_blanco.php on line 105
+[17-Apr-2018 15:18:56 UTC] PHP Notice:  Undefined variable: datos in /home/csg39721/public_html/php/pdf/vistas/pdf_blanco.php on line 105
+[17-Apr-2018 15:18:56 UTC] PHP Notice:  Undefined variable: datos in /home/csg39721/public_html/php/pdf/vistas/pdf_blanco.php on line 113
+[17-Apr-2018 15:18:56 UTC] PHP Notice:  Undefined variable: datos in /home/csg39721/public_html/php/pdf/vistas/pdf_blanco.php on line 121
+[17-Apr-2018 15:18:56 UTC] PHP Notice:  Undefined variable: datos in /home/csg39721/public_html/php/pdf/vistas/pdf_blanco.php on line 129
+[17-Apr-2018 15:19:51 UTC] PHP Notice:  Undefined variable: datos in /home/csg39721/public_html/php/pdf/vistas/pdf_blanco.php on line 105
+[17-Apr-2018 15:19:51 UTC] PHP Notice:  Undefined variable: datos in /home/csg39721/public_html/php/pdf/vistas/pdf_blanco.php on line 105
+[17-Apr-2018 15:19:51 UTC] PHP Notice:  Undefined variable: datos in /home/csg39721/public_html/php/pdf/vistas/pdf_blanco.php on line 105
+[17-Apr-2018 15:19:51 UTC] PHP Notice:  Undefined variable: datos in /home/csg39721/public_html/php/pdf/vistas/pdf_blanco.php on line 113
+[17-Apr-2018 15:19:51 UTC] PHP Notice:  Undefined variable: datos in /home/csg39721/public_html/php/pdf/vistas/pdf_blanco.php on line 121
+[17-Apr-2018 15:19:51 UTC] PHP Notice:  Undefined variable: datos in /home/csg39721/public_html/php/pdf/vistas/pdf_blanco.php on line 129
+[18-Apr-2018 00:55:07 UTC] PHP Notice:  Undefined variable: datos in /home/csg39721/public_html/php/pdf/vistas/pdf_blanco.php on line 106
+[18-Apr-2018 00:55:07 UTC] PHP Notice:  Undefined variable: datos in /home/csg39721/public_html/php/pdf/vistas/pdf_blanco.php on line 106
+[18-Apr-2018 00:55:07 UTC] PHP Notice:  Undefined variable: datos in /home/csg39721/public_html/php/pdf/vistas/pdf_blanco.php on line 106
+[18-Apr-2018 00:55:07 UTC] PHP Notice:  Undefined variable: datos in /home/csg39721/public_html/php/pdf/vistas/pdf_blanco.php on line 114
+[18-Apr-2018 00:55:07 UTC] PHP Notice:  Undefined variable: datos in /home/csg39721/public_html/php/pdf/vistas/pdf_blanco.php on line 122
+[18-Apr-2018 00:55:07 UTC] PHP Notice:  Undefined variable: datos in /home/csg39721/public_html/php/pdf/vistas/pdf_blanco.php on line 130

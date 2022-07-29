@@ -1,0 +1,63 @@
+@import url(CSSmenu.css);
+@import url(CSSgeneral.css);
+
+#formEvento {
+	
+
+	text-align:center;
+
+}
+#formEvento label {
+	font-size: 20px;
+	display: block;
+	margin: auto;
+	text-align:center;
+	
+}
+
+#formEvento input[type=text]{
+	font-size: 20px;
+	box-sizing: border-box;
+    border: 2px solid;
+    border-radius: 4px;
+    text-align:center;
+}
+
+#formEvento textarea{	
+	font-size: 15px;
+	margin: auto;
+	text-align:center;
+	box-sizing: border-box;
+    border: 2px solid;
+    border-radius: 4px;
+    margin-bottom: 30px;
+}
+
+#formEvento input[type=submit]{
+	
+	font-size: 25px;
+	display: block;
+	margin: auto;
+	padding: 5px;
+	box-sizing: border-box;
+    margin-bottom: 30px;
+    border: 1px solid yellow;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0 0 10px yellow inset;
+    background:yellow;
+}
+
+#dia, #mes{
+    display:none;
+}
+
+
+#cale_select,#periodo_select {
+	display: block;
+	border: 1px solid #E5E5E5;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0 0 10px #E8E8E8 inset;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}

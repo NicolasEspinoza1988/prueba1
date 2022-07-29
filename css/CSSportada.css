@@ -1,0 +1,125 @@
+*
+{
+    margin:0;
+    padding:0;
+}
+
+body
+{
+    min-height:100vh;
+    width:100%;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), url(sgs_index_img.png);
+    background-size:100% 100%;
+    background-attachment:fixed;
+    display:flex;
+    flex-wrap:wrap;
+}
+
+
+header,main,footer
+{
+    width:100%;
+   
+}
+
+header
+{
+    height:5em;
+    background:white;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+main
+{
+    display:flex;
+    justify-content:center;
+    color:white;
+    margin-top:4em;
+    margin-bottom:6em;
+
+}
+
+main > div  > p
+{
+    font-size:2em;
+    margin:0 auto;
+    text-shadow:2px 2px  black;
+}
+
+main > div  > ul 
+{
+    list-style-type: none;
+    margin:2.4em auto;
+}
+
+
+main > div  > ul > li > a
+{
+    color:yellow;
+    text-decoration:none;
+    margin:0.5em ;
+    font-size:1.5em;
+    text-shadow:2px 2px  black;
+}
+
+main > div  > ul > li > a:hover
+{
+    color:white;
+    
+}
+
+footer
+{
+    height:2.5em;
+    background:white;
+    font-size:1em;
+    box-sizing:border-box;
+    display:flex;
+    align-self:flex-end;
+    justify-content:center;
+    align-items:center;
+}
+
+
+
+@media (min-width: 720px) {
+footer
+{
+    
+    font-size:1.8em;
+
+}
+
+body
+{
+    min-height:100vh;
+    width:100%;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), url(sgs_index_img.png);
+    background-size: cover;
+    background-attachment:fixed;
+    display:flex;
+    flex-wrap:wrap;
+}
+
+main
+{
+    justify-content:flex-end;
+    
+}
+
+.logo_user
+{
+   margin-left:1.5em;
+}
+
+.name_user
+{
+   margin-right:1.5em;
+   font-size:1.5em;
+}
+
+
+
+}

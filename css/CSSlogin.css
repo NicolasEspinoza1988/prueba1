@@ -1,0 +1,73 @@
+
+
+* {	
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+    min-height:100vh;
+    width:100%;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), url(sgs_index_img.png);
+    background-size: cover;
+    background-attachment:fixed;
+    display:flex;
+    justify-content:flex-end;
+    align-items:center;
+}
+
+
+h1
+{
+    position:absolute;
+    top:20%;
+    left:10%;
+    margin: 0 auto;
+}
+
+form
+{
+    height:auto;
+    width:70%;
+    margin: 0 auto;
+    background:white;
+    box-sizing:border-box;
+    padding:1em;
+    border-radius:0.2em;
+}
+
+form > img,input,label
+{
+    width:100%;
+    margin:0.2em;
+}
+
+.txt_datos_incorrectos
+{
+    margin:0 auto;
+    color:white;
+     align-self:center;
+}
+
+.link_datos_incorrectos
+{
+     align-self:center;
+     margin:0 auto;
+     color:white;
+}
+
+
+
+@media (min-width: 600px) {
+  form
+{
+    height:auto;
+    width:20%;
+    margin: 0 auto;
+    background:white;
+    box-sizing:border-box;
+    padding:1em;
+    border-radius:0.2em;
+}
+}

@@ -1,0 +1,264 @@
+@import url(CSSmenu.css);
+
+
+
+
+
+
+body  
+{
+    background: rgba(147,206,222,1);
+    background: -moz-linear-gradient(left, rgba(147,206,222,1) 0%, rgba(117,189,209,1) 41%, rgba(0,0,255,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(147,206,222,1)), color-stop(41%, rgba(117,189,209,1)), color-stop(100%, rgba(0,0,255,1)));
+    background: -webkit-linear-gradient(left, rgba(147,206,222,1) 0%, rgba(117,189,209,1) 41%, rgba(0,0,255,1) 100%);
+    background: -o-linear-gradient(left, rgba(147,206,222,1) 0%, rgba(117,189,209,1) 41%, rgba(0,0,255,1) 100%);
+    background: -ms-linear-gradient(left, rgba(147,206,222,1) 0%, rgba(117,189,209,1) 41%, rgba(0,0,255,1) 100%);
+    background: linear-gradient(to right, rgba(147,206,222,1) 0%, rgba(117,189,209,1) 41%, rgba(0,0,255,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#93cede', endColorstr='#0000ff', GradientType=1 );
+	color: #fff;
+	height:auto;
+}
+
+.contenedor 
+{
+	width: 98%;
+	margin: auto;
+	text-align: center;
+}
+
+.contenedor > select 
+{
+	display: block;
+	border: 1px solid #E5E5E5;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0 0 10px #E8E8E8 inset;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+#myTable
+{
+	margin: auto;
+	margin-top: 30px;
+	text-align: center;
+	border: 2px solid yellow;
+    border-radius: 5px 5px 5px 5px;
+    margin-bottom: 50px;
+    text-transform: capitalize;
+}
+
+#myTable > tbody > tr:nth-child(1) > td 
+{
+	background: #000;
+	color:#fff;
+	font-size: 20px;
+	padding: 2px;
+}
+
+tr:hover 
+{
+    background-color:yellow;
+    color:#0000ff;
+}
+
+#curso_select_obs
+{
+	display: block;
+	border: 1px solid #E5E5E5;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0 0 10px #E8E8E8 inset;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+form  > input[type="submit"]
+{
+   	display: block;
+	text-align: center;
+	margin: auto;
+	margin-top: 15px;
+	padding: 10px;
+	border: 1px solid yellow;
+    border-radius: 5px 5px 5px 5px;
+    background: rgba(252,234,187,1);
+    background: -moz-linear-gradient(left, rgba(252,234,187,1) 0%, rgba(252,205,77,1) 0%, rgba(248,181,0,1) 0%, rgba(255,255,0,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(252,234,187,1)), color-stop(0%, rgba(252,205,77,1)), color-stop(0%, rgba(248,181,0,1)), color-stop(100%, rgba(255,255,0,1)));
+    background: -webkit-linear-gradient(left, rgba(252,234,187,1) 0%, rgba(252,205,77,1) 0%, rgba(248,181,0,1) 0%, rgba(255,255,0,1) 100%);
+    background: -o-linear-gradient(left, rgba(252,234,187,1) 0%, rgba(252,205,77,1) 0%, rgba(248,181,0,1) 0%, rgba(255,255,0,1) 100%);
+    background: -ms-linear-gradient(left, rgba(252,234,187,1) 0%, rgba(252,205,77,1) 0%, rgba(248,181,0,1) 0%, rgba(255,255,0,1) 100%);
+    background: linear-gradient(to right, rgba(252,234,187,1) 0%, rgba(252,205,77,1) 0%, rgba(248,181,0,1) 0%, rgba(255,255,0,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fceabb', endColorstr='#ffff00', GradientType=1 );
+}
+
+#formObs
+{
+    display: block;
+	text-align: center;
+	margin: auto;
+	margin-top: 15px;
+	padding: 5px;
+}
+
+textarea 
+{
+    border: 1px solid #E5E5E5;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0 0 10px #E8E8E8 inset;
+    display:block;
+    text-align:center;
+    margin:0 auto;
+    margin-bottom:1em;
+}
+
+#myTable_ob
+{
+    text-align:center;
+    margin:5em auto 5em auto;
+    height:auto;
+}
+
+.row-t
+{
+   margin:1em auto 2em auto;
+}
+
+.row-header
+{
+    display:none;
+}
+
+.cell-t
+{
+    width:100%;
+    text-transform:capitalize;
+    text-align:center;
+    margin-bottom:1em;
+}
+   
+.indicador
+{
+    display:inline-block;
+    vertical-align: text-top;
+    color:yellow;
+}
+
+#myTable_ob > span
+{
+    text-transform:capitalize; 
+    margin: 3em auto 0 auto;
+}
+
+#myTable_ob > div > div:nth-child(1),#myTable_ob > div > div:nth-child(2),#myTable_ob > div > div:nth-child(3)
+{
+    display:none;
+}
+
+.btn-volver
+{
+    position:fixed;
+    right:1em;
+    bottom:0;
+    color:white;
+    text-decoration:none;
+    z-index:100;
+    background:green;
+    border-radius:0.2em;
+    border: 0.2em solid white;
+    padding:0.1em;
+}
+
+@media(min-width: 768px)
+{
+
+#myTable_ob > span
+{
+    display:none; 
+}
+
+textarea 
+{
+    border: 1px solid #E5E5E5;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0 0 10px #E8E8E8 inset;
+    margin: 1em auto;
+    padding:1em;
+    display:inline;
+}
+    
+#myTable_ob
+{
+    position:relative;
+    display:table;
+    width:100%;
+    text-align:center;
+    margin:3em auto;
+    border:0.2em solid yellow;
+}
+
+.row-t
+{
+    position:relative;
+    display:table-row;
+    margin:0 auto;
+    width:100%;
+}
+
+.row-header
+{
+    position:relative;
+    display:table-row;
+    margin:1em auto;
+    padding:1em auto;
+    width:100%;
+    height:auto;
+    background:blue;
+    text-shadow:1px 1px  black;
+    font-size:1.3em;
+}
+
+.cell-t
+{
+    position:relative;
+    display:table-cell;
+    height:auto;
+    width:auto;
+    vertical-align: middle;
+    margin:0 auto;
+    text-transform:capitalize;
+} 
+
+.indicador
+{
+    display:none;
+}
+
+#myTable_ob > div > div:nth-child(1),#myTable_ob > div > div:nth-child(2),#myTable_ob > div > div:nth-child(3)
+{
+     display:table-cell;
+}
+
+#myTable_ob > div > div:nth-child(4):hover,#myTable_ob > div > div:nth-child(5):hover
+{
+     background:yellow;
+} 
+#myTable_ob > div:nth-child(1) > div:nth-child(4):hover,#myTable_ob > div:nth-child(1) > div:nth-child(5):hover
+{
+     background:transparent;
+}
+ 
+.btn-volver
+{
+    padding:0.5em;
+}
+
+.btn-volver:hover
+{
+   padding:1em;
+   font-size:1.5em;
+   transition: all 0.5s;
+   bottom:1em;
+}
+
+}

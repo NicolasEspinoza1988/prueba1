@@ -1,0 +1,155 @@
+@import url(CSSmenu.css);
+@import url(CSSgeneral.css);
+
+#sn_asist_ver_cont > form > h2{
+    	margin-top: 60px;
+    	text-shadow:1px 1px black;
+}
+
+#tabla_inasistencia{
+	margin:auto;
+	margin-top: 20px;
+	border: 2px solid yellow;
+    border-radius: 5px 5px 5px 5px;	
+    background: #0000ff;
+    color :#fff;
+    margin-bottom: 50px;
+    text-transform: capitalize;
+    
+}
+
+tr:hover {
+    background-color:yellow;
+    color:#0000ff;
+}
+
+th:hover {
+    background-color:red;
+    color:#0000ff;
+}
+
+th {
+    margin:10px;
+    padding:2px;
+}
+#select_curso,#select_mes
+{
+	display: block;
+	border: 1px solid #E5E5E5;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0 0 10px #E8E8E8 inset;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    text-align:center;
+}
+
+ #sn_asist_ver_cont > form > input[type="submit"],body > form > input[type="submit"]{
+
+	display: block;
+	text-align: center;
+	margin: auto;
+	margin-top: 15px;
+	padding: 10px;
+	border: 1px solid yellow;
+    border-radius: 5px 5px 5px 5px;
+background: rgba(252,234,187,1);
+background: -moz-linear-gradient(left, rgba(252,234,187,1) 0%, rgba(252,205,77,1) 0%, rgba(248,181,0,1) 0%, rgba(255,255,0,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(252,234,187,1)), color-stop(0%, rgba(252,205,77,1)), color-stop(0%, rgba(248,181,0,1)), color-stop(100%, rgba(255,255,0,1)));
+background: -webkit-linear-gradient(left, rgba(252,234,187,1) 0%, rgba(252,205,77,1) 0%, rgba(248,181,0,1) 0%, rgba(255,255,0,1) 100%);
+background: -o-linear-gradient(left, rgba(252,234,187,1) 0%, rgba(252,205,77,1) 0%, rgba(248,181,0,1) 0%, rgba(255,255,0,1) 100%);
+background: -ms-linear-gradient(left, rgba(252,234,187,1) 0%, rgba(252,205,77,1) 0%, rgba(248,181,0,1) 0%, rgba(255,255,0,1) 100%);
+background: linear-gradient(to right, rgba(252,234,187,1) 0%, rgba(252,205,77,1) 0%, rgba(248,181,0,1) 0%, rgba(255,255,0,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fceabb', endColorstr='#ffff00', GradientType=1 );
+
+}
+
+body > p{
+
+    text-align: center;
+    margin:auto;
+    padding: 5px;
+    font-size: 25px;
+    margin-top:10px;
+    font-weight: bold;
+    text-transform: capitalize;
+    text-shadow:1px 1px black;
+ }
+
+body > form {
+    display: block;
+	text-align: center;
+	margin: auto;
+	margin-top: 30px;
+	padding: 5px;
+    
+}
+
+.weekend{
+	display: none;
+}
+
+.lunes{
+    color:black;
+    background:red;
+    text-align: center;
+    padding: 2px;
+    border: 1px solid black;
+    border-radius: 2px 2px 2px 2px;
+}
+
+.martes{
+    background:green;
+    text-align: center;
+    padding: 2px;
+   border: 1px solid black;
+    border-radius: 2px 2px 2px 2px;
+}
+
+.miercoles{
+    color:black;
+    background:orange;
+    text-align: center;
+    padding: 2px;
+    border: 1px solid black;
+    border-radius: 2px 2px 2px 2px;
+}
+
+.jueves{
+    background: blueviolet;
+    text-align: center;
+    padding: 2px;
+   border: 1px solid black;
+    border-radius: 2px 2px 2px 2px;
+}
+
+.viernes{
+    color:black;
+    background: yellow;
+    text-align: center;
+    padding: 2px;
+    border: 1px solid black;
+    border-radius: 2px 2px 2px 2px;
+}
+
+.sabado{
+    background: magenta;
+    text-align: center;
+    padding: 2px;
+   border: 1px solid black;
+    border-radius: 2px 2px 2px 2px;
+}
+
+.domingo{
+    background: cyan;
+    text-align: center;
+    padding: 2px;
+    border: 1px solid black;
+    border-radius: 2px 2px 2px 2px;
+}
+
+.num_asist{
+     text-align: center;
+     margin:2px;
+     padding:3px;
+}
